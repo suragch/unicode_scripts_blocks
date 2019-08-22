@@ -17,7 +17,7 @@ main() {
     print('not Basic Latin');
   }
 
-final scripts = UnicodeScript2.scripts;
+  final scripts = UnicodeScript2.scripts;
   final punc = scripts.where((script) => script.category.startsWith('P'));
   for (Script p in punc) {
     print('${p.start} ${p.end} ${p.propertyValue} ${p.category}');
@@ -31,11 +31,11 @@ final scripts = UnicodeScript2.scripts;
   //for (int i; i < myString.length; i++) {}
 }
 
-bool isPunctuation(int codeUnit) {
-  final scripts = UnicodeScript2.scripts;
-  final punc = scripts.where((script) => script.category.startsWith('P'));
-  for (Script p in punc) {
-    print('${p.start} ${p.end} ${p.propertyValue} ${p.category}');
-  }
-  //UnicodeScript2.scripts.where((script) );
-}
+// bool isPunctuation(int codeUnit) {
+//   final scripts = UnicodeScript2.scripts;
+//   final punc = scripts.where((script) => script.category.startsWith('P'));
+//   for (Script p in punc) {
+//     print('${p.start} ${p.end} ${p.propertyValue} ${p.category}');
+//   }
+//   //UnicodeScript2.scripts.where((script) );
+// }

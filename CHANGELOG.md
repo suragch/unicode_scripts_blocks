@@ -1,3 +1,5 @@
+# Change log
+
 ## 0.2.0
 
 - Added a script list `UnicodeScript.scripts`
