@@ -1,6 +1,6 @@
 name: unicode_scripts_blocks
 description: A tool for checking if a code unit belongs to a Unicode Script or Block.
-version: 0.2.0
+version: 0.3.0
 homepage: https://github.com/suragch/unicode_scripts_blocks
 author: Suragch <studymongolian@gmail.com>
 
