@@ -2,7 +2,7 @@
 
 A tool for checking if a code unit belongs to a Unicode Script or Block
 
-## Notice: This library is deprecated! Please use [Unicode Data](https://github.com/suragch/unicode_data).
+## Notice: This library is deprecated! It will not be maintained and could be deleted at any time. Please use [Unicode Data](https://github.com/suragch/unicode_data) instead.
 
 ## Background
 

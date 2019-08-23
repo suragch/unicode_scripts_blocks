@@ -1,5 +1,8 @@
 # Change log
 
+## 0.4.0
+
+- Deprecated this library. Use [Unicode Data](https://pub.dev/packages/unicode_data) instead.
 
 ## 0.3.0
 
