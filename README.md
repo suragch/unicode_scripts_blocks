@@ -2,6 +2,8 @@
 
 A tool for checking if a code unit belongs to a Unicode Script or Block
 
+## Notice: This library is deprecated! Please use [Unicode Data](https://github.com/suragch/unicode_data).
+
 ## Background
 
 Unicode code points are divided into code blocks that generally contains characters within the same or related writing systems. For example [Basic Latin](https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block)) or [Arabic](https://en.wikipedia.org/wiki/Arabic_(Unicode_block)). However, the complete character set needed for a writing system is often spread across a number of code blocks. This character set is referred to as a script. If you want to know what writing system a particular character belongs to, it is generally more accurate to use the Unicode script data rather than the block data. You can read more about the difference [here](http://www.unicode.org/reports/tr24/#Scripts_and_Blocks).

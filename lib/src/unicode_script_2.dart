@@ -2,14 +2,7 @@ import 'script.dart';
 
 class UnicodeScript2 {
 
-  static bool calculateIsScript(int codeUnit, String scriptName) {
-    final sublist = scripts.where((script) => script.propertyValue == scriptName);
-    for (Script element in sublist) {
-      
-    }
-  }
-
-  static List<Script> scripts = [
+  static final List<Script> scripts = [
     Script(0x0000, 0x001F, 'Common', 'Cc'),
     Script(0x0020, 0x0020, 'Common', 'Zs'),
     Script(0x0021, 0x0023, 'Common', 'Po'),
